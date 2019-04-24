@@ -1,0 +1,41 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	color: #f00;
+}
+header {
+	font-family: 'Allerta Stencil', arial, sans-serif;
+	font-size: 4em;
+	text-align: center;
+}
+nav, footer {
+	border-top: thin #5b7d87 solid;
+	border-bottom: thin #5b7d87 solid;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+nav .btn {
+	background-color: #f00;
+	color: #D7E8D1;
+    height:40px;
+    width:110px;
+}
+nav .btn:visited {
+	color: #e4c3ad;
+}
+nav .btn:hover {
+	font-weight: bold;
+	color: #ffe9db;
+}
+nav .btn:active {
+	font-weight: lighter;
+}
+.row {
+	background-color: #D7E8D1;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.carousel-inner{
+	text-align: center;
+	height: 100px;
+}
